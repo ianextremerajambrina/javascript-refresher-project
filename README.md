@@ -1,12 +1,17 @@
-# React + Vite
+✅ Funcionalidades Principales
+Iniciar temporizador: Comienza a contar segundos, incrementando minutos cuando se alcanzan 60 segundos.
+Pausar temporizador: Detiene el conteo sin reiniciar el tiempo acumulado.
+Reiniciar temporizador: Reinicia el tiempo a 00:00 y detiene el temporizador.
+Formato de tiempo: Muestra el tiempo en formato MM:SS (ej: 01:30).
+🧰 Tecnologías Usadas
+React: Framework para construir interfaces de usuario interactivas.
+React Hooks (useState, useEffect): Gestión de estado y efectos secundarios.
+CSS: Estilos básicos para el diseño de la interfaz.
+📌 Nota Importante
+Aunque el proyecto se diseñó inicialmente como una solución en JavaScript puro, se implementó con React para aprovechar la potencia de componentes reutilizables y la gestión de estado declarativo. Esto permite una mejor organización del código y una experiencia de usuario más fluida.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🚀 Cómo Usarlo
+Clona el repositorio.
+Instala dependencias (si es necesario).
+Ejecuta el proyecto en entorno de desarrollo.
+Interactúa con el temporizador: iniciar, pausar, reiniciar.
